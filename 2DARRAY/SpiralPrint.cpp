@@ -17,6 +17,7 @@ int main()
             cin>>arr[i][j];
         }
 
+
     }
     cout<<endl;
 
