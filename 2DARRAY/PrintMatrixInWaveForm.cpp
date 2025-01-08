@@ -38,6 +38,7 @@ int main()
                 cout<<a[i][j]<<" ";
             }
         }
+        
         cout<<endl;
 
     }
