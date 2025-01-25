@@ -8,7 +8,7 @@ int main(){
 
     }
     cout<<endl;
-    //proof of \addindex'\0
+    //proof of last index'\0
     cout<<(int)str[5];
     cout<< endl;
     for(int i=0;str[i]!='\0';i++)

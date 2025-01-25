@@ -15,7 +15,7 @@ int main(){
         {
             break;
         }
-        if(n==2 && str[0]!=str[1])  // yadi string ki size 2 hai ex: ab to a  b se different hai and phir b  a se different hai dono to baaat ek hi hai to count 1 hi hona chahaiye
+        if(n==2 && str[0]!=str[1])  // yadi string ki size 2 hai ex: ab too a , b se different hai and phir b  a se different hai dono to baaat ek hi hai to count 1 hi hona chahaiye
         {
             count=1;
             break;
