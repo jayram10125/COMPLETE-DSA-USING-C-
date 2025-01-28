@@ -12,6 +12,7 @@ int main()
         if(arr[i]>x){
             cout<<arr[i];
             break;
+            
         }
     }
 
