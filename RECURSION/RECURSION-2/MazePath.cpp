@@ -11,6 +11,15 @@ int maze(int sr , int sc,int er, int ec ){ // sc->starting column , sr-> satarti
 
 
 }
+int maze2(int row ,int col){
+    if(row<1 || col<1) return 0;
+    if(row ==1 && col==1) return 1;
+    int rightWays = maze2(row,col-1);
+    int downWays = maze2(row-1,col);
+    int totalWays =rightWays + downWays;
+    return totalWays;
+
+}
 void printPath(int sr , int sc,int er, int ec,string s)
 {
     if(sr>er || sc>ec) return ;
@@ -27,7 +36,8 @@ void printPath(int sr , int sc,int er, int ec,string s)
 int main()
 {
     //cout<<maze(0,0,2,2);
-    printPath(1,1,3,3,"");
+    //printPath(1,1,3,3,"");
+    cout<<maze2(3,4);
 
 
 
