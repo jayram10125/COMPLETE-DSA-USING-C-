@@ -1,19 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    bool a = true, b = false;
-    
-    cout << (a && b) << endl;  // false (0)
-    cout << (a || b) << endl;  // true (1)
-    cout << !a << endl;        // false (0)
-
-    return 0;
+void displayMessage() {
+    cout << "This is the start of the function." << endl;
+    return;  // Exit the function here
+    cout << "This line will not be printed." << endl;  // This will not be executed
 }
 
-
-
-
-
-
-
+int main() {
+    displayMessage();
+    return 0;
+}
