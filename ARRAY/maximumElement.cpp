@@ -20,6 +20,6 @@ int main()
             max=arr[i];
         }
     }
-    cout<<"the marimum element is : "<<max;
+    cout<<"the maximum element is : "<<max;
     
 } 
